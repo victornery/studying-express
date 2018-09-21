@@ -1,8 +1,8 @@
-const express = require('express');
-const app = express();
-const port = 3003;
+let express = require('express');
+let app = express();
+let port = 3003;
 
-const testRoutes = require('./router.js');
+let testRoutes = require('./router.js');
 
 console.log(routes);
 
