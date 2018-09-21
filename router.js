@@ -10,7 +10,7 @@ router.get('/', (req, rest) => {
 })
 
 router.get('/about', (req, res) => {
-  res.send('About my application');
+  res.send('Sobre minha aplicação');
 })
 
 module.exports = router;
